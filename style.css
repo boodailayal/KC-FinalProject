@@ -1,0 +1,90 @@
+@media screen {
+    
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.l1{
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+}
+
+
+#mySearch{
+    margin-right: 16px;
+}
+
+
+#sidenav{
+    padding: 100px 0px;
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background :rgba(214, 143, 143, 0.18);
+    backdrop-filter: blur(1px);
+    box-shadow:inset 10px 10px 10px rgba(169, 169, 169, 0.142);
+    top:0;
+    right: 0;
+}
+
+
+#sidenav ul li{
+    list-style: none;
+}
+
+
+#sidenav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px 30px;
+    display: block;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+
+#sidenav ul li a:hover{
+    background: rgba(255, 255, 255, 0.4);
+    transition: 0.4s;
+}
+
+
+.au h1 {
+    color: black;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    font-weight: bolder;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+
+.au h3 {
+    color: black;
+    position: absolute;
+    top: 45%;
+    right: 25%;
+    display:flex;
+    font-weight: bolder;
+    font-family: "font-family: 'Vazirmatn', sans-serif;";
+}
+
+
+.au{
+    background-color: rgba(255,255,255,0.2);
+    
+}
+
+
+
+
+
+
+}
+
